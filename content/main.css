@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-lightest: hsl(47, 20%, 95%);
+  --color-darkest: #17282F;
+  --color-main-accent: #00494D;
+  --color-secondary-accent: #F39C12;
+  --color-tertiary-accent: hsl(47, 20%, 95%);
+  --color-tertiary-accent-old: hsl(47, 20%, 85%);
+  --color-light: hsl(47, 20%, 95%);
+}
+
+@media print {
+  a.print-link:after {
+    content: " ("attr(href)")";
+  }
+}
